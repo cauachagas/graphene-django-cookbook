@@ -1,6 +1,6 @@
 # graphene-django-cookbook
 
-Seguindo o tutorial de como conectar ORM aos tipos de objetos Graphene<sup>[1](#graphene-django)</sup>.
+Seguindo o tutorial de como conectar ORM aos tipos de objetos Graphene<sup id="id1">[1](#graphene-django)</sup>.
 
 
 Nesse repositório usaremos boas práticas como ambientes virtual, variáveis de ambiente (sim, eu também já cometi o erro de versionar chaves secretas), criações de chaves (o ideial é ter uma chave para Desenvolvimento, Homologação e Desenvolvimento) e .gitignore (não cometa o erro de subir arquivos desnecessários)
