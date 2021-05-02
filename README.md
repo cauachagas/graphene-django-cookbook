@@ -1,6 +1,7 @@
 # graphene-django-cookbook
 
-Seguindo o tutorial de como conectar ORM aos tipos de objetos Graphene[^graphene-django].
+Seguindo o tutorial de como conectar ORM aos tipos de objetos Graphene<sup>[1](#graphene-django)</sup>.
+
 
 Nesse repositório usaremos boas práticas como ambientes virtual, variáveis de ambiente (sim, eu também já cometi o erro de versionar chaves secretas), criações de chaves (o ideial é ter uma chave para Desenvolvimento, Homologação e Desenvolvimento) e .gitignore (não cometa o erro de subir arquivos desnecessários)
 
@@ -73,7 +74,6 @@ Em seu localhost, vá para a rota `graphql`. Veja como o poder do GraphQL em aç
 
 Você pode notar que o GraphQL só traz o que pedimos. Nem mais, nem menos. Numa API para o mundo real, facilita bastante quando é necessário fazer nas filtragens de dados, sem precisar passar por vários endpoints.
 
-
 ### Criando super usuário (Opcional)
 
 Caso você queira acessar o painel administrativo na rota `admin`, precisamos criar um super usuário. Isso poderá ser feito iterativamente com
@@ -99,4 +99,4 @@ onde criamos um super usuário (`user.is_superuser = True`) de nome `foo` com se
 
 # Referências
 
-[^graphene-django]: https://docs.graphene-python.org/projects/django/en/latest/tutorial-plain
+1. <b id="graphene-django"></b> https://docs.graphene-python.org/projects/django/en/latest/tutorial-plain [↩](#id1) 
