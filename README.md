@@ -49,9 +49,10 @@ O servidor servidor estará em http://127.0.0.1:8000/
 
 ### Inserindo dados de teste
 
-Ainda não temos dados no nosso banco. Mas antes de carregar qualquer dado, precisamos criar nossa tabela 
+Ainda não temos dados no nosso banco. Mas antes de carregar qualquer dado, precisamos criar nossa tabela com os nossos models
 
 ```bash
+python manage.py makemigrations ingredients
 python manage.py migrate
 ```
 
