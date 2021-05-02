@@ -31,8 +31,12 @@ DEBUG = os.environ["DEBUG"] == "TRUE"
 
 ALLOWED_HOSTS = []
 
-if not DEBUG:
-    ALLOWED_HOSTS = os.environ["ALLOWED_HOSTS"].split(";")
+if os.environ["DOCKER_TEST"] == "TRUE":
+    ALLOWED_HOSTS = ["0.0.0.0"]
+
+if not DEBUG :
+    for i in os.environ["ALLOWED_HOSTS"].split(";"):
+        ALLOWED_HOSTS.append(i)
 
 
 # Application definition
