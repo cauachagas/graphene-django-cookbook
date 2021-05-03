@@ -99,7 +99,7 @@ Para iniciar o container em segundo plano para ter acesso ao mesmo terminal `doc
 
 Em seu localhost, vá para a rota `graphql`. Veja como o poder do GraphQL em ação
 
-![](https://media.giphy.com/media/MlzgkOqT8Ri4KFv3HH/giphy.gif)
+![](https://drive.google.com/uc?export=view&id=10Lgf2YMC2tMQo8F6HKNLR1cZzS4VsbaJ)
 
 
 Você pode notar que o GraphQL só traz o que pedimos. Nem mais, nem menos. Numa API para o mundo real, facilita bastante quando é necessário fazer nas filtragens de dados, sem precisar passar por vários endpoints.
